@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15a9fb6f-504f-41b2-9cd6-5051cd5c0a0e" name="Changes" comment="Ignore.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/cnm/deepdive/PalindromesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/edu/cnm/deepdive/palindromes.csv" afterDir="false" />
+    <list default="true" id="15a9fb6f-504f-41b2-9cd6-5051cd5c0a0e" name="Changes" comment="parameterized tests for palidromes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/cnm/deepdive/Factorials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/cnm/deepdive/Factorials.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +164,12 @@
       <workItem from="1635259870407" duration="8549000" />
       <workItem from="1635275078412" duration="1193000" />
       <workItem from="1635276292325" duration="2576000" />
-      <workItem from="1635539621485" duration="1692000" />
+      <workItem from="1635539621485" duration="2003000" />
+      <workItem from="1635721053189" duration="257000" />
+      <workItem from="1635725615688" duration="406000" />
+      <workItem from="1635726125881" duration="434000" />
+      <workItem from="1635732369778" duration="2437000" />
+      <workItem from="1635771803420" duration="1774000" />
     </task>
     <task id="LOCAL-00001" summary="recursions">
       <created>1635268287082</created>
@@ -188,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635278730242</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="parameterized tests for palidromes">
+      <created>1635541360162</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1635541360162</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,7 +220,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="recursions" />
     <MESSAGE value="Ignore." />
-    <option name="LAST_COMMIT_MESSAGE" value="Ignore." />
+    <MESSAGE value="parameterized tests for palidromes" />
+    <option name="LAST_COMMIT_MESSAGE" value="parameterized tests for palidromes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
