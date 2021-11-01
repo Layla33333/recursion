@@ -14,13 +14,13 @@ class PalindromesTest {
     assertEquals(expected, Palindromes.checkRecursive(input));
   }
   @ParameterizedTest
-  @CsvFileSource(resources = "denormalized_palindromes.csv", numLinesToSkip = 1)
+  @CsvFileSource(resources = "denormalized-palindromes.csv", numLinesToSkip = 1)
   void checkDenormalized(String input, boolean expected) {
     assertEquals(expected, Palindromes.checkDenormalized(input));
   }
 
   @ParameterizedTest
-  @CsvFileSource(resources = "denormalized_palindromes.csv", numLinesToSkip = 1)
+  @CsvFileSource(resources = "denormalized-palindromes.csv", numLinesToSkip = 1)
   void checkDenormalizedIterative(String input, boolean expected) {
     assertEquals(expected, Palindromes.checkDenormalizedIterative(input));
   }
